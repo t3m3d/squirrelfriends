@@ -1,0 +1,19 @@
+[
+  {
+    "id": "eastern-gray-squirrel",
+    "name": "Eastern gray squirrel",
+    "scientificName": "Sciurus carolinensis",
+    "introduction": "A familiar neighbor. A voice worth knowing.",
+    "sounds": [
+      {
+        "id": "gray-squirrel-field-call",
+        "title": "A squirrel calling",
+        "description": "A lone gray squirrel, recorded in Camberley, England in 1977. Listen for the rhythm of its calls and the sounds around it.",
+        "filename": "gray-squirrel-call.mp3",
+        "credit": "Recorded by Aubrey John Williams. © The British Library Board. Shelfmark W1CDR0001470 BD12. Licensed CC BY-SA 4.0. No recording is bundled in this development build.",
+        "sourceURL": "https://commons.wikimedia.org/wiki/File:Grey_Squirrel_(Sciurus_carolinensis)_(W1CDR0001470_BD12).ogg",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
+  }
+]
