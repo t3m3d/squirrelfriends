@@ -1,0 +1,23 @@
+[
+  {
+    "id": "photo.happy",
+    "filename": "happy.jpg",
+    "title": "Hello there",
+    "description": "A squirrel looking out from a hole in a tree, mouth open.",
+    "credit": "Christine Haines, as credited on the supplied image."
+  },
+  {
+    "id": "photo.wave",
+    "filename": "itsmesquirrel.jpg",
+    "title": "Reaching up",
+    "description": "A reddish squirrel with one front paw raised.",
+    "credit": "Photo supplied by the user; photographer not identified."
+  },
+  {
+    "id": "photo.reach",
+    "filename": "reach.jpg",
+    "title": "Tree acrobat",
+    "description": "A squirrel stretching between branches while holding a tree trunk.",
+    "credit": "Photo supplied by the user; photographer not identified."
+  }
+]

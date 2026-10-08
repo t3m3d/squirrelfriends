@@ -1,0 +1,46 @@
+Grey Squirrel (Sciurus carolinensis)
+Recordist: Aubrey John Williams
+Copyright: The British Library Board
+Recorded: 31 July 1977, Camberley, Surrey, England
+British Library shelfmark: W1CDR0001470 BD12
+
+Source and original recording:
+https://commons.wikimedia.org/wiki/File:Grey_Squirrel_(Sciurus_carolinensis)_(W1CDR0001470_BD12).ogg
+
+License: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Bundled file: gray-squirrel-call.mp3
+Wikimedia Commons supplied the MP3 transcode of the original Ogg recording.
+Squirrel Friends has made no further audio edits. This license applies to
+the recording; no endorsement by the recordist or British Library is implied.
+
+Cover photo: peeking.jpg, supplied by the user, with Linda Black credited
+on the image. The photo and sound are separate sources; the pictured animal
+is not identified as the animal in the recording. Gallery photos are supplied
+by the user; individual credits are stored in photos.json.
+
+
+Yellowstone chatter — American red squirrel
+NPS / Shan Burson. Red Squirrel, Yellowstone National Park. Source creation date: March 20, 2004. Public domain U.S. Government recording; downloaded as MP3 without further edits. No claim to original U.S. Government works. No NPS endorsement is implied.
+Source: https://www.nps.gov/yell/learn/photosmultimedia/sounds-redsquirrel.htm
+Reuse terms: https://www.nps.gov/aboutus/disclaimer.htm
+Bundled file: red-squirrel-yellowstone.mp3
+Downloaded from: https://www.nps.gov/nps-audiovideo/legacy/mp3/imr/avElement/yell-YELLSGYredsquirrel2004320.mp3
+
+
+Michigan morning chatter — American red squirrel
+Red_Squirrel_chatter.wav by philberts on Freesound. Recorded in Silver City, Michigan, USA; uploaded January 4, 2011 (recording year unspecified). CC0 1.0. Bundled file is Freesound’s publicly available HQ MP3 preview of the original WAV; no further audio edits. No endorsement is implied.
+Source: https://freesound.org/people/philberts/sounds/111393/
+Reuse terms: https://creativecommons.org/publicdomain/zero/1.0/
+Bundled file: red-squirrel-michigan.mp3
+Downloaded from: https://cdn.freesound.org/previews/111/111393_835438-hq.mp3
+
+
+Denali calls — Ground squirrel
+National Park Service. Ground Squirrel, recorded at Denali National Park & Preserve, Alaska. Public domain per the NPS Sound Gallery. Volume increased by 6.79 dB to a -2 dBFS sample peak; decoded from the NPS MP3 and saved as 16-bit PCM WAV. No trimming, compression, or noise reduction. No claim to original U.S. Government works. No NPS endorsement is implied. The audio source does not identify the species.
+Source: https://www.nps.gov/subjects/sound/sounds-ground-squirrel.htm
+Reuse terms: https://www.nps.gov/subjects/sound/gallery.htm
+Bundled playback file: ground-squirrel-denali-boosted.wav
+Original source retained: ground-squirrel-denali.mp3
+Downloaded from: https://www.nps.gov/nps-audiovideo/legacy/mp3/nri/avElement/nri-GroundSquirrelDENA.mp3

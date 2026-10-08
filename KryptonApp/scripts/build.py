@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Package compiled Krypton as an iOS app; no generated Swift/ObjC app code."""
 import argparse
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -26,8 +27,14 @@ for animal in animals:
     for key in ('id', 'name', 'scientificName', 'sounds'):
         if not animal.get(key):
             raise ValueError(f'Animal is missing {key}')
+    if animal.get('artwork'):
+        artwork = animal['artwork']
+        if Path(artwork).name != artwork or not (ROOT / 'resources' / artwork).is_file():
+            raise ValueError(f'Missing or invalid animal artwork: {artwork}')
+    if 'artworkHeight' in animal and (type(animal['artworkHeight']) is not int or not 100 <= animal['artworkHeight'] <= 500):
+        raise ValueError('artworkHeight must be an integer from 100 to 500')
     for sound in animal['sounds']:
-        for key in ('id', 'title', 'description', 'filename', 'credit', 'sourceURL', 'licenseURL'):
+        for key in ('id', 'title', 'description', 'filename', 'credit', 'sourceURL', 'licenseURL', 'category'):
             if not sound.get(key):
                 raise ValueError(f'Recording is missing {key}')
         if sound['id'] in seen or sound['id'] == 'personal-recording':
@@ -35,6 +42,23 @@ for animal in animals:
         seen.add(sound['id'])
         if Path(sound['filename']).name != sound['filename']:
             raise ValueError('Audio filenames must not contain directories')
+        audio = ROOT / 'resources' / sound['filename']
+        if not audio.is_file():
+            raise ValueError(f'Missing bundled audio: {audio.name}')
+        if sound.get('sha256') and hashlib.sha256(audio.read_bytes()).hexdigest() != sound['sha256']:
+            raise ValueError(f'Bundled audio checksum mismatch: {audio.name}')
+
+photos = json.loads((ROOT / 'resources/photos.json').read_text())
+photo_ids = set()
+for photo in photos:
+    if any(not photo.get(key) for key in ('id', 'filename', 'title', 'description', 'credit')):
+        raise ValueError('Gallery photo is missing metadata')
+    if photo['id'] in photo_ids:
+        raise ValueError(f'Duplicate gallery photo ID: {photo["id"]}')
+    photo_ids.add(photo['id'])
+    filename = photo['filename']
+    if Path(filename).name != filename or not (ROOT / 'resources' / filename).is_file():
+        raise ValueError(f'Missing or invalid gallery photo: {filename}')
 
 app = ROOT / 'build' / args.target / 'SquirrelFriends.app'
 app.mkdir(parents=True, exist_ok=True)
@@ -47,7 +71,7 @@ for resource in (ROOT / 'resources').iterdir():
 plist = {
     'CFBundleDisplayName': 'Squirrel Friends', 'CFBundleExecutable': 'SquirrelFriends',
     'CFBundleIdentifier': args.bundle_id, 'CFBundleName': 'SquirrelFriends',
-    'CFBundlePackageType': 'APPL', 'CFBundleShortVersionString': '0.2.0', 'CFBundleVersion': '2',
+    'CFBundlePackageType': 'APPL', 'CFBundleShortVersionString': '0.5.0', 'CFBundleVersion': '5',
     'CFBundleSupportedPlatforms': ['iPhoneSimulator' if args.target == 'simulator' else 'iPhoneOS'],
     'MinimumOSVersion': '15.0', 'UIDeviceFamily': [1, 2], 'UILaunchScreen': {},
     'UISupportedInterfaceOrientations': ['UIInterfaceOrientationPortrait', 'UIInterfaceOrientationLandscapeLeft', 'UIInterfaceOrientationLandscapeRight'],

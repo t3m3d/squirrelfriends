@@ -10,9 +10,77 @@
         "title": "A squirrel calling",
         "description": "A lone gray squirrel, recorded in Camberley, England in 1977. Listen for the rhythm of its calls and the sounds around it.",
         "filename": "gray-squirrel-call.mp3",
-        "credit": "Recorded by Aubrey John Williams. © The British Library Board. Shelfmark W1CDR0001470 BD12. Licensed CC BY-SA 4.0. No recording is bundled in this development build.",
+        "credit": "Recorded by Aubrey John Williams, Camberley, England, 31 July 1977. © The British Library Board. Shelfmark W1CDR0001470 BD12. Licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). MP3 transcode supplied by Wikimedia Commons; no further audio edits. Cover photo: Linda Black, as credited on the supplied image. The photo and sound are separate sources; the pictured squirrel is not identified as the recorded animal.",
         "sourceURL": "https://commons.wikimedia.org/wiki/File:Grey_Squirrel_(Sciurus_carolinensis)_(W1CDR0001470_BD12).ogg",
-        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/"
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "durationSeconds": 65.880816,
+        "durationLabel": "About 1:06",
+        "sha256": "c0ae4914d2d9218fdc95cc5fce0b82c2b14d25fe794b588f3bcf9511d2148fd6",
+        "category": "Field calls"
+      }
+    ],
+    "artwork": "peeking.jpg",
+    "artworkHeight": 208,
+    "artworkDescription": "A squirrel peeking through a fork in a tree. Photo credit printed on the image: Linda Black."
+  },
+  {
+    "id": "american-red-squirrel",
+    "name": "American red squirrel",
+    "scientificName": "Tamiasciurus hudsonicus",
+    "introduction": "Two voices from North American forests.",
+    "sounds": [
+      {
+        "id": "red-squirrel-yellowstone",
+        "title": "Yellowstone chatter",
+        "description": "Red squirrel chatter from Yellowstone National Park. NPS lists the recording creation date as March 20, 2004.",
+        "filename": "red-squirrel-yellowstone.mp3",
+        "credit": "NPS / Shan Burson. Red Squirrel, Yellowstone National Park. Source creation date: March 20, 2004. Public domain U.S. Government recording; downloaded as MP3 without further edits. No claim to original U.S. Government works. No NPS endorsement is implied.",
+        "sourceURL": "https://www.nps.gov/yell/learn/photosmultimedia/sounds-redsquirrel.htm",
+        "licenseURL": "https://www.nps.gov/aboutus/disclaimer.htm",
+        "downloadURL": "https://www.nps.gov/nps-audiovideo/legacy/mp3/imr/avElement/yell-YELLSGYredsquirrel2004320.mp3",
+        "licenseName": "Public domain (U.S. Government)",
+        "durationSeconds": 12.532,
+        "durationLabel": "About 0:13",
+        "sha256": "45b890dd2acc8fa621db031c8cb034d1fc9e5ed8399d41212b1a00f07c2773fb",
+        "category": "Chatter"
+      },
+      {
+        "id": "red-squirrel-michigan",
+        "title": "Michigan morning chatter",
+        "description": "American red squirrel chatter recorded on a September morning in Silver City, Michigan, with a Zoom H4.",
+        "filename": "red-squirrel-michigan.mp3",
+        "credit": "Red_Squirrel_chatter.wav by philberts on Freesound. Recorded in Silver City, Michigan, USA; uploaded January 4, 2011 (recording year unspecified). CC0 1.0. Bundled file is Freesound’s publicly available HQ MP3 preview of the original WAV; no further audio edits. No endorsement is implied.",
+        "sourceURL": "https://freesound.org/people/philberts/sounds/111393/",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "downloadURL": "https://cdn.freesound.org/previews/111/111393_835438-hq.mp3",
+        "licenseName": "CC0 1.0",
+        "durationSeconds": 44.304,
+        "durationLabel": "About 0:44",
+        "sha256": "b8ffa6e66e6c73f4fc3bf3e85fc6f51b2f8d96a062f2a9f559a0c4a65eb019ce",
+        "category": "Chatter"
+      }
+    ]
+  },
+  {
+    "id": "ground-squirrel-denali",
+    "name": "Ground squirrel",
+    "scientificName": "Sciuridae (species unspecified)",
+    "introduction": "A short call from Alaska.",
+    "sounds": [
+      {
+        "id": "ground-squirrel-denali-call",
+        "title": "Denali calls",
+        "description": "A ground squirrel calling at Denali National Park & Preserve, Alaska. The audio source does not specify the species.",
+        "filename": "ground-squirrel-denali-boosted.wav",
+        "credit": "National Park Service. Ground Squirrel, recorded at Denali National Park & Preserve, Alaska. Public domain per the NPS Sound Gallery. Volume increased by 6.79 dB to a -2 dBFS sample peak; decoded from the NPS MP3 and saved as 16-bit PCM WAV. No trimming, compression, or noise reduction. No claim to original U.S. Government works. No NPS endorsement is implied. The audio source does not identify the species.",
+        "sourceURL": "https://www.nps.gov/subjects/sound/sounds-ground-squirrel.htm",
+        "licenseURL": "https://www.nps.gov/subjects/sound/gallery.htm",
+        "downloadURL": "https://www.nps.gov/nps-audiovideo/legacy/mp3/nri/avElement/nri-GroundSquirrelDENA.mp3",
+        "licenseName": "Public domain (U.S. Government)",
+        "durationSeconds": 7.706122448979592,
+        "durationLabel": "About 0:08",
+        "sha256": "e8e160cc12f0f77534b3981cd49b4cee0367b3f9c94f2cb0d60ae0e78f1afba5",
+        "category": "Field calls"
       }
     ]
   }
